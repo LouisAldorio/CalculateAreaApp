@@ -2,6 +2,7 @@ package utils
 
 import kotlin.math.pow
 
+@Deprecated("Change Implementation to Shape Class")
 object CalculateAreaUtils {
 
     fun calculateAreaRectangle(length: Int, width: Int): Int {
